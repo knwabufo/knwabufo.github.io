@@ -2,25 +2,30 @@
 
 body {
   margin: 0;
+  background-color: #fdfcde;
+  font-family: 'Lato', sans-serif;
 }
 
 /****************   Nav Section **********************/
 nav {
   display: flex;
-	background-color: black;
+	background-color: #4e763a;
   color: white;
-  padding: 1em 0;
+  padding: 1em 2em;
   position: stretched;
+  font: 'Lato', sans-serif;
   top: 0;
   width: 100%;
   justify-content: space-around;
   justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 /***********************  Footer Section   **************************/
 footer {
 	display: flex;
-  background-color: black;
+  background-color: #4e763a;
   color: white;
   padding: 0;
   position: stretched;
@@ -32,21 +37,22 @@ footer {
 /*********** Splash Page ************************/
 header {
   min-height: 60vh;
-  padding: 9rem 0 0;
+  padding: 3em 4em 0;
   text-align: center;
-  background-color: #17324d;
-  color: white;
+  background-color: #fdfcde;
+  color: #221304;
 }
 
 header h1 {
   font-family: 'Lato', sans-serif;
-  color: #fde68a;
+  color: #221304;
   font-size: 3rem;
+  padding: 0.5em;
 }
 
 header img {
   border-radius: 50%;
-  border: 5px solid #fde68a;
+  border: 5px solid  #4e763a;
 }
 
 .address {
@@ -54,6 +60,7 @@ header img {
   font-size: 1rem;
   margin: 1;
   justify-content: center;
+  padding: 5px;
 }
 
 .tagline {
@@ -104,6 +111,7 @@ section a:hover {
   gap: 1.5rem;
   max-width: 1100px;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .card img {
